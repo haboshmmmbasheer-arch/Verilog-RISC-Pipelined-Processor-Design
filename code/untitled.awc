@@ -1,0 +1,138 @@
+<config>
+    <version>
+        3.1
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="900f0c276d5f39325e692dfac9280700">untitled.asdb</database>
+    </databases>
+    <gridshown/>
+    <signallists>
+        <signallist id="0">
+        <signal>/Top_CPU/clk</signal>
+        <signal>/Top_CPU/reset</signal>
+        <signal>/Top_CPU/PC</signal>
+        <signal>/Top_CPU/PC_plus1</signal>
+        <signal>/Top_CPU/inst_IF</signal>
+        <signal>/Top_CPU/stall_hz</signal>
+        <signal>/Top_CPU/bubble_ex_hz</signal>
+        <signal>/Top_CPU/inst_ID</signal>
+        <signal>/Top_CPU/npc_ID</signal>
+        <signal>/Top_CPU/opcode_ID</signal>
+        <signal>/Top_CPU/Rs_ID</signal>
+        <signal>/Top_CPU/Rt_ID</signal>
+        <signal>/Top_CPU/Rd_ID</signal>
+        <signal>/Top_CPU/Rp_ID</signal>
+        <signal>/Top_CPU/imm12_ID</signal>
+        <signal>/Top_CPU/Psel_ID</signal>
+        <signal>/Top_CPU/AluSel_ID</signal>
+        <signal>/Top_CPU/WB_ID</signal>
+        <signal>/Top_CPU/MEM_Write_ID</signal>
+        <signal>/Top_CPU/MEM_Read_ID</signal>
+        <signal>/Top_CPU/typextend_ID</signal>
+        <signal>/Top_CPU/Sel_input2_ID</signal>
+        <signal>/Top_CPU/Sel_Dest_ID</signal>
+        <signal>/Top_CPU/PCNop_ID</signal>
+        <signal>/Top_CPU/J_ID</signal>
+        <signal>/Top_CPU/JR_ID</signal>
+        <signal>/Top_CPU/CALL_ID</signal>
+        <signal>/Top_CPU/WR_final_ID</signal>
+        <signal>/Top_CPU/BusY_ID</signal>
+        <signal>/Top_CPU/BusZ_ID</signal>
+        <signal>/Top_CPU/Busp_ID</signal>
+        <signal>/Top_CPU/RpVal_ID</signal>
+        <signal>/Top_CPU/imm_ext_ID</signal>
+        <signal>/Top_CPU/R_dest_WBbuf</signal>
+        <signal>/Top_CPU/WBData_normal</signal>
+        <signal>/Top_CPU/WR_normal</signal>
+        <signal>/Top_CPU/R_dest_WB_final</signal>
+        <signal>/Top_CPU/WBData_WB_final</signal>
+        <signal>/Top_CPU/WR_WB_final</signal>
+        <signal>/Top_CPU/pcSrc_ID</signal>
+        <signal>/Top_CPU/Kill_ID</signal>
+        <signal>/Top_CPU/off22_ID</signal>
+        <signal>/Top_CPU/pc_ID</signal>
+        <signal>/Top_CPU/jump_off_ID</signal>
+        <signal>/Top_CPU/pc_jump_target_ID</signal>
+        <signal>/Top_CPU/pc_jr_target_ID</signal>
+        <signal>/Top_CPU/PC_next</signal>
+        <signal>/Top_CPU/Psel_EX</signal>
+        <signal>/Top_CPU/AluSel_EX</signal>
+        <signal>/Top_CPU/WB_EX</signal>
+        <signal>/Top_CPU/MEM_Write_EX</signal>
+        <signal>/Top_CPU/MEM_Read_EX</signal>
+        <signal>/Top_CPU/typextend_EX</signal>
+        <signal>/Top_CPU/Sel_input2_EX</signal>
+        <signal>/Top_CPU/Sel_Dest_EX</signal>
+        <signal>/Top_CPU/PCNop_EX</signal>
+        <signal>/Top_CPU/J_EX</signal>
+        <signal>/Top_CPU/JR_EX</signal>
+        <signal>/Top_CPU/CALL_EX</signal>
+        <signal>/Top_CPU/RpVal_EX</signal>
+        <signal>/Top_CPU/BusY_EX</signal>
+        <signal>/Top_CPU/BusZ_EX</signal>
+        <signal>/Top_CPU/Busp_EX</signal>
+        <signal>/Top_CPU/imm_ext_EX</signal>
+        <signal>/Top_CPU/npc_EX</signal>
+        <signal>/Top_CPU/Rs_EX</signal>
+        <signal>/Top_CPU/Rt_EX</signal>
+        <signal>/Top_CPU/Rd_EX</signal>
+        <signal>/Top_CPU/Rp_EX</signal>
+        <signal>/Top_CPU/WB_MEM</signal>
+        <signal>/Top_CPU/MEM_Read_MEM</signal>
+        <signal>/Top_CPU/MEM_Write_MEM</signal>
+        <signal>/Top_CPU/CALL_MEM</signal>
+        <signal>/Top_CPU/npc_MEM</signal>
+        <signal>/Top_CPU/ALU_result_MEM</signal>
+        <signal>/Top_CPU/Reg2_MEM</signal>
+        <signal>/Top_CPU/R_dest_MEM</signal>
+        <signal>/Top_CPU/WB_WBbuf</signal>
+        <signal>/Top_CPU/MEM_Read_WBbuf</signal>
+        <signal>/Top_CPU/CALL_WBbuf</signal>
+        <signal>/Top_CPU/npc_WBbuf</signal>
+        <signal>/Top_CPU/MEM_Data_WBbuf</signal>
+        <signal>/Top_CPU/ALU_result_WBbuf</signal>
+        <signal>/Top_CPU/ForwardA</signal>
+        <signal>/Top_CPU/ForwardB</signal>
+        <signal>/Top_CPU/ForwardStore</signal>
+        <signal>/Top_CPU/MEM_Data_MEM</signal>
+        <signal>/Top_CPU/fwd_from_wb</signal>
+        <signal>/Top_CPU/fwd_from_mem</signal>
+        <signal>/Top_CPU/BusY_EX_fwd</signal>
+        <signal>/Top_CPU/BusZ_EX_fwd</signal>
+        <signal>/Top_CPU/Store_EX_fwd</signal>
+        <signal>/Top_CPU/ALU_result_EX</signal>
+        <signal>/Top_CPU/Reg2_EX</signal>
+        <signal>/Top_CPU/R_dest_EX</signal>
+        </signallist>
+    </signallists>
+    <timebases>
+        <timebase id="0">
+            <time start_time="81822" end_time="145673" />
+        </timebase>
+    </timebases>
+    <prefbases>
+        <prefbase id="0" >
+        </prefbase>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="131736" label="Cursor 1" locked="0" />
+        </cursors>
+    </cursorbases>
+    <measurementbases>
+    </measurementbases>
+    <commentbases>
+        <comments id="0">
+        </comments>
+    </commentbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+    </views>
+</config>
